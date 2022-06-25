@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>JKRP Agroways</title>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-sm navbar-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><img class="companyLogo" src="img/companyLogo2Resized.png" alt=""></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-item-overlay carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption text-right mb-5">
+              <h1 class="display-3"><b>JKRP Agroways</b></h1>
+              <p class="lead">An Indian Agribusiness… Built for Today's World</p>
+              <a href="contact.html" class="btn btn-danger btn-lg">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-overlay carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption mb-5 ">
+              <h1 class="display-3 d-none d-sm-block"><b>Quality Farming Products</b></h1>
+              <h1 class="display-5 d-block d-sm-none"><b>Quality Farming Products</b></h1>
+              <p class="lead">We are determined to keep up the quality of our farming produces as high as possible.</p>
+              <a href="contact.html" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item-overlay carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption mb-5">
+              <h1 class="display-3 d-none d-sm-block"><b>Broad Network of Logistics</b></h1>
+              <h1 class="display-5 d-block d-sm-none"><b>Broad Network of Logistics</b></h1>
+              <p class="lead">We have a very broad network of logistics enabling us to reach even the remote areas around India with ease.</p>
+              <a href="contact.html" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!--HOME ICON SECTION  -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 my-1 text-center d-none d-sm-block">
+              <!-- <i class="fas fa-cog fa-3x mb-2"></i> -->
+              <img class="home-icons-images mb-3" src="img/image02.png" alt="">
+              <h4><b>Products Range</b></h4>
+              <p>We are growing a multitude of different Vegetables, Fruits and Grains.</p>
+            </div>
+            <div class="col-md-3 my-1 text-center d-none d-sm-block">
+              <img class="home-icons-images mb-3" src="img/image03.png" alt="">
+              <!-- <i class="fas fa-cloud fa-3x mb-2"></i> -->
+              <h4><b>Smart Logistics</b></h4>
+              <p>Delivering our produces to your place is an easy task for our logistics.</p>
+            </div>
+            <div class="col-md-3 my-1 text-center d-none d-sm-block">
+              <!-- <i class="fas fa-people-arrows fa-3x mb-2"></i> -->
+              <!--<i class="fas fa-cart-plus fa-3x mb-2"></i>-->
+              <img class="home-icons-images mb-3" src="img/image04.png" alt="">
+              <h4><b>Quality Matters</b></h4>
+              <p>We are determined to keep up the quality of farming produces as high as possible</p>
+            </div>
+            <div class="col-md-3 my-1 text-center d-none d-sm-block">
+              <img class="home-icons-images mb-3" src="img/image05.png" alt="">
+              <h4><b>Seasoned Team</b></h4>
+              <p>Our experts spent last few years excelling their skills and expanding their knowledge.</p>
+            </div>
+            <div class="col-md-12 my-1 text-center d-block d-sm-none">
+              <div class="row">
+                <div class="col-6">
+                  <img class="home-icons-images mb-3" src="img/image02.png" alt="">
+                  <h4>Products Range</h4>
+                  <p>We are growing a multitude of different Vegetables, Fruits and Grains.</p>
+                </div>
+                <div class="col-6">
+                  <img class="home-icons-images mb-3" src="img/image03.png" alt="">
+                  <h4>Smart Logistics</h4>
+                  <p>Delivering our produces to your place is an easy task for our logistics.</p>
+                </div>
+                <div class="col-6">
+                  <img class="home-icons-images mb-3" src="img/image04.png" alt="">
+                  <h4>Quality Matters</h4>
+                  <p>We are determined to keep up the quality of farming produces as high as possible</p>
+                </div>
+                <div class="col-6">
+                  <img class="home-icons-images mb-3" src="img/image05.png" alt="">
+                  <h4>Seasoned Team</h4>
+                  <p>Our experts spent last few years excelling their skills and expanding their knowledge.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- HOME HEADING SECTION -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Looking For Agriculture Produces?</h1>
+            <p class="d-none d-md-block">Look no further. Contact us today.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO SECTION -->
+  <!-- <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>What We Deal In</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
+            cum laudantium ex sequi amet.</p>
+          <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/cereal.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- PRODUCT GALLERY -->
+  <section id="products-gallery" class="pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h3 class="mb-3"><b>What We Deal In</b></h3>
+        </div>
+        <div class="col-6 text-right">
+          <a class="btn shadow btn-dark mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn shadow btn-dark mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="col-12">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/turmeric03-removebg-preview.png">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Turmeric Powder (Grade A)</h5>
+                        <p class="card-text mb-4 custom-text-grey">Manasvi Salem Turmeric Powder, For Cooking, 500 gm to 25 Kg</p>
+                        <p class="text-success"><b>₹ 110/</b> kg</p>
+                        <a href="#" class="btn btn-dark mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/rice01.jpg">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Indian Long Grain Parboiled Rice.</h5>
+                        <p class="card-text mb-4 custom-text-grey">7029 Indian Long Grain Parboiled Rice, 5Kg to 20Kg</p>
+                        <p class="text-success"><b>₹ 37/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/blackrice01.jpg">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Black Rice (Organic)</h5>
+                        <p class="card-text mb-4 custom-text-grey">Prthviraj FPC Organic Black Rice, 500gm to 20Kg</p>
+                        <p class="text-success"><b>₹ 80/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/sesameseed01-removebg-preview.png">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">White Seasame Seeds</h5>
+                        <p class="card-text mb-4 custom-text-grey">White Sesame Seeds from A One Protien, 500gm to 5Kg</p>
+                        <p class="text-success"><b>₹ 95/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/soybean01-removebg-preview.png">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Soybean (Grade III)</h5>
+                        <p class="card-text mb-4 custom-text-grey">Loose Soybean, 1Kg to 20Kg</p>
+                        <p class="text-success"><b>₹ 80/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/redkidneybean01-removebg-preview.png">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">RedKidney Bean (Organic)</h5>
+                        <p class="card-text mb-4 custom-text-grey">Organic Red Rajma/Red Kidney Bean, 1Kg to 25Kg</p>
+                        <p class="text-success"><b>₹ 180/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/sunflowerseed01-removebg-preview.png">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sunflower Seeds</h5>
+                        <p class="card-text mb-4 custom-text-grey">Natural Sunflower Seeds Stripped, 5Kg to 30Kg</p>
+                        <p class="text-success"><b>₹ 80/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/rice02.jpg">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Arborio Rice</h5>
+                        <p class="card-text mb-4 custom-text-grey">456ba Arborio Rice, 5Kg to 20Kg</p>
+                        <p class="text-success"><b>₹ 37/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                      <img class="img-fluid custom-img-bg" alt="100%x280" src="img/soybean02.jpg">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Soybean Seed (High Grade)</h5>
+                        <p class="card-text mb-4 custom-text-grey">Dry Soybeans Dried Soyabean For Cooking, 500gm to 20Kg</p>
+                        <p class="text-success"><b>₹ 72/</b> kg</p>
+                        <a href="#" class="btn btn-dark text-white mt-auto align-self-start">Book now</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- VIDEO PLAY -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/NCp93xbSwWM" data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center"><b>Photo Gallery</b></h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="img/photogallery1.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="img/photogallery1.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photogallery2.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="561"
+            data-width="561">
+            <img src="img/photogallery2.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photogallery3.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="562"
+            data-width="562">
+            <img src="img/photogallery3.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="img/photogallery4.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="563"
+            data-width="563">
+            <img src="img/photogallery4.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photogallery5.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="564"
+            data-width="564">
+            <img src="img/photogallery5.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/photogallery6.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="565"
+            data-width="565">
+            <img src="img/photogallery6.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <!--
+  <section id="newsletter" class="text-center p-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Sign Up For Our Newsletter</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus voluptates
+            vero repellendus architecto maiores recusandae mollitia?</p>
+          <form class="form-inline justify-content-center">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+            <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+            <button class="btn btn-primary mb-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="p-4 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Clients Say</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  " Great Service that's <strong>on time</strong> per agreed upon schedule. The Communications staff and the technical staffs are always willing to work around the cutsomer's schedule. Hats off to them! "
+                </p>
+                <footer class="blockquote-footer">John Doe From
+                  <cite title="Company 1">Company 1</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
+                </p>
+                <footer class="blockquote-footer">Sam Smith From
+                  <cite title="Company 2">Company 2</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
+                </p>
+                <footer class="blockquote-footer">Meghan Williams From
+                  <cite title="Company 3">Company 3</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> debajit4944</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <!--<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <script src="https://kit.fontawesome.com/0053d4a2f2.js" crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    // Video Play
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
+  </script>
+</body>
+
+</html>
