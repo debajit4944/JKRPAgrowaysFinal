@@ -10,7 +10,7 @@ body {
   background: -webkit-linear-gradient(to bottom, #434343 0%, #000000 150%);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #434343 0%, #000000 150%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#showcase, #home-heading,#home-icons h4, #products-gallery h3,#gallery h1{
+#showcase, #home-heading,#home-icons h4, #products-gallery h3,#gallery h1,#page-header h1,#about h1,#contact h3,#testimonials h2,#authors h1{
   font-family: 'Merriweather', serif;
 }
 .carousel-item-overlay:after {
